@@ -21,7 +21,6 @@ enum VPNStatus {
 class VpnManager{
     static let shared = VpnManager()
     var observerAdded: Bool = false
-
     
     fileprivate(set) var vpnStatus = VPNStatus.off {
         didSet {
@@ -78,9 +77,9 @@ extension VpnManager{
     fileprivate func createProviderManager() -> NETunnelProviderManager {
         let manager = NETunnelProviderManager()
         let conf = NETunnelProviderProtocol()
-        conf.serverAddress = "Rabbit"
+        conf.serverAddress = "PoloVpn"
         manager.protocolConfiguration = conf
-        manager.localizedDescription = "Rabbit VPN"
+        manager.localizedDescription = "Polo VPN"
         return manager
     }
     
@@ -145,7 +144,7 @@ extension VpnManager{
         self.loadAndCreatePrividerManager { (manager) in
             guard let manager = manager else{return}
             do{
-                try manager.connection.startVPNTunnel(options: [:])
+                try manager.connection.startVPNTunnel()
             }catch let err{
                 print(err)
             }
@@ -170,7 +169,7 @@ extension VpnManager{
         var conf = [String:AnyObject]()
         conf["ss_address"] = "YOUR SS URL" as AnyObject?
         conf["ss_port"] = 1025 as AnyObject?
-        conf["ss_method"] = "AES-256-CFB" as AnyObject?
+        conf["ss_method"] = "AES256CFB" as AnyObject?
         conf["ss_password"] = "YOUR SS PASSWORD" as AnyObject?
         conf["ymal_conf"] = getRuleConf() as AnyObject?
         let orignConf = manager.protocolConfiguration as! NETunnelProviderProtocol
