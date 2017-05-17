@@ -24,7 +24,6 @@
 		09A5AD2D1DE0573A00272F7C /* NEKitRule.conf in Resources */ = {isa = PBXBuildFile; fileRef = 09A5AD2C1DE0573A00272F7C /* NEKitRule.conf */; };
 		09E3FB5B1DF859E0001DE158 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E3FB5A1DF859E0001DE158 /* Resolver.framework */; };
 		12E14E351ECAD1AA00EDA6DC /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E14E341ECAD1AA00EDA6DC /* NetworkExtension.framework */; };
-		12E14E451ECAD2E900EDA6DC /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E14E401ECAD2CD00EDA6DC /* CommonCrypto.framework */; };
 		12E14E4B1ECAD5A600EDA6DC /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E14E341ECAD1AA00EDA6DC /* NetworkExtension.framework */; };
 		353C0FDC1DDF393F00A46EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C0FDB1DDF393F00A46EBD /* AppDelegate.swift */; };
 		353C0FDE1DDF393F00A46EBD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353C0FDD1DDF393F00A46EBD /* HomeViewController.swift */; };
@@ -41,30 +40,30 @@
 			remoteGlobalIDString = 09549ABE1DDF3B49000F198C;
 			remoteInfo = PacketTunnel;
 		};
-		12E14E3D1ECAD2CD00EDA6DC /* PBXContainerItemProxy */ = {
+		12E14E541ECBE19300EDA6DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 12E14E361ECAD2CD00EDA6DC /* CommonCrypto.xcodeproj */;
+			containerPortal = 12E14E4D1ECBE19200EDA6DC /* CommonCrypto.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 444A78DC1D8819F8003983A2;
 			remoteInfo = "CommonCrypto-watchOS";
 		};
-		12E14E3F1ECAD2CD00EDA6DC /* PBXContainerItemProxy */ = {
+		12E14E561ECBE19300EDA6DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 12E14E361ECAD2CD00EDA6DC /* CommonCrypto.xcodeproj */;
+			containerPortal = 12E14E4D1ECBE19200EDA6DC /* CommonCrypto.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 444A78E91D881A1E003983A2;
 			remoteInfo = "CommonCrypto-iOS";
 		};
-		12E14E411ECAD2CD00EDA6DC /* PBXContainerItemProxy */ = {
+		12E14E581ECBE19300EDA6DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 12E14E361ECAD2CD00EDA6DC /* CommonCrypto.xcodeproj */;
+			containerPortal = 12E14E4D1ECBE19200EDA6DC /* CommonCrypto.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 444A78F61D881A2D003983A2;
 			remoteInfo = "CommonCrypto-tvOS";
 		};
-		12E14E431ECAD2CD00EDA6DC /* PBXContainerItemProxy */ = {
+		12E14E5A1ECBE19300EDA6DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 12E14E361ECAD2CD00EDA6DC /* CommonCrypto.xcodeproj */;
+			containerPortal = 12E14E4D1ECBE19200EDA6DC /* CommonCrypto.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 444A79031D881A39003983A2;
 			remoteInfo = "CommonCrypto-macOS";
@@ -115,7 +114,7 @@
 		09A5AD2C1DE0573A00272F7C /* NEKitRule.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NEKitRule.conf; path = "Supporting Files/NEKitRule.conf"; sourceTree = "<group>"; };
 		09E3FB5A1DF859E0001DE158 /* Resolver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resolver.framework; path = Carthage/Build/iOS/Resolver.framework; sourceTree = "<group>"; };
 		12E14E341ECAD1AA00EDA6DC /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
-		12E14E361ECAD2CD00EDA6DC /* CommonCrypto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonCrypto.xcodeproj; path = "../CommonCrypto-master/CommonCrypto.xcodeproj"; sourceTree = "<group>"; };
+		12E14E4D1ECBE19200EDA6DC /* CommonCrypto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonCrypto.xcodeproj; path = "CommonCrypto-master/CommonCrypto.xcodeproj"; sourceTree = "<group>"; };
 		353C0FD81DDF393F00A46EBD /* rabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353C0FDB1DDF393F00A46EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		353C0FDD1DDF393F00A46EBD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -130,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E14E451ECAD2E900EDA6DC /* CommonCrypto.framework in Frameworks */,
 				09E3FB5B1DF859E0001DE158 /* Resolver.framework in Frameworks */,
 				12E14E351ECAD1AA00EDA6DC /* NetworkExtension.framework in Frameworks */,
 				09549ADC1DDF406B000F198C /* CocoaAsyncSocket.framework in Frameworks */,
@@ -244,13 +242,13 @@
 			name = Extends;
 			sourceTree = "<group>";
 		};
-		12E14E371ECAD2CD00EDA6DC /* Products */ = {
+		12E14E4E1ECBE19200EDA6DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12E14E3E1ECAD2CD00EDA6DC /* CommonCrypto.framework */,
-				12E14E401ECAD2CD00EDA6DC /* CommonCrypto.framework */,
-				12E14E421ECAD2CD00EDA6DC /* CommonCrypto.framework */,
-				12E14E441ECAD2CD00EDA6DC /* CommonCrypto.framework */,
+				12E14E551ECBE19300EDA6DC /* CommonCrypto.framework */,
+				12E14E571ECBE19300EDA6DC /* CommonCrypto.framework */,
+				12E14E591ECBE19300EDA6DC /* CommonCrypto.framework */,
+				12E14E5B1ECBE19300EDA6DC /* CommonCrypto.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,7 +256,7 @@
 		353C0FCF1DDF393F00A46EBD = {
 			isa = PBXGroup;
 			children = (
-				12E14E361ECAD2CD00EDA6DC /* CommonCrypto.xcodeproj */,
+				12E14E4D1ECBE19200EDA6DC /* CommonCrypto.xcodeproj */,
 				353C0FDA1DDF393F00A46EBD /* rabbit */,
 				09549AC01DDF3B4A000F198C /* PacketTunnel */,
 				353C0FD91DDF393F00A46EBD /* Products */,
@@ -381,8 +379,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 12E14E371ECAD2CD00EDA6DC /* Products */;
-					ProjectRef = 12E14E361ECAD2CD00EDA6DC /* CommonCrypto.xcodeproj */;
+					ProductGroup = 12E14E4E1ECBE19200EDA6DC /* Products */;
+					ProjectRef = 12E14E4D1ECBE19200EDA6DC /* CommonCrypto.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -394,32 +392,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		12E14E3E1ECAD2CD00EDA6DC /* CommonCrypto.framework */ = {
+		12E14E551ECBE19300EDA6DC /* CommonCrypto.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CommonCrypto.framework;
-			remoteRef = 12E14E3D1ECAD2CD00EDA6DC /* PBXContainerItemProxy */;
+			remoteRef = 12E14E541ECBE19300EDA6DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		12E14E401ECAD2CD00EDA6DC /* CommonCrypto.framework */ = {
+		12E14E571ECBE19300EDA6DC /* CommonCrypto.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CommonCrypto.framework;
-			remoteRef = 12E14E3F1ECAD2CD00EDA6DC /* PBXContainerItemProxy */;
+			remoteRef = 12E14E561ECBE19300EDA6DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		12E14E421ECAD2CD00EDA6DC /* CommonCrypto.framework */ = {
+		12E14E591ECBE19300EDA6DC /* CommonCrypto.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CommonCrypto.framework;
-			remoteRef = 12E14E411ECAD2CD00EDA6DC /* PBXContainerItemProxy */;
+			remoteRef = 12E14E581ECBE19300EDA6DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		12E14E441ECAD2CD00EDA6DC /* CommonCrypto.framework */ = {
+		12E14E5B1ECBE19300EDA6DC /* CommonCrypto.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CommonCrypto.framework;
-			remoteRef = 12E14E431ECAD2CD00EDA6DC /* PBXContainerItemProxy */;
+			remoteRef = 12E14E5A1ECBE19300EDA6DC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
