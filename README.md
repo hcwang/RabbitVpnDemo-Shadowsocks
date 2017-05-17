@@ -1,14 +1,14 @@
 # RabbitVpnDemo
 
 # 注意：
-- 1.此版本已下載所有framework,下載後不需在使用Cartfile
-- 2.此專案需要有Apple開發帳號才能使用
+- 此版本已下載所有framework,下載後不需在使用Cartfile
+- 此專案需要有Apple開發帳號才能使用
 
 # 使用方式：
-- 1.修改rabbit及PacketTunnelVPN的bundle identifier
-- 2.重新對映Capabilities
-- 3.修改VpnManager.swift的setRulerConfig 參數
-- 4.連接設備進行編譯
+- 修改rabbit及PacketTunnelVPN的bundle identifier
+- 重新對映Capabilities
+- 修改VpnManager.swift的setRulerConfig 參數
+- 連接設備進行編譯
 
 
 # Debug:
