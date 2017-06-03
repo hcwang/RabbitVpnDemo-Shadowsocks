@@ -1,7 +1,7 @@
 # RabbitVpnDemo
 
 # 注意：
-- 此版本已下載所有framework,下載後不需在使用Cartfile
+- 下載後，請先執行Cartfile，把目錄的CommonCrypto.framework複製到RabbitVpnDemo-Shadowsocks/Carthage/Build
 - 此專案需要有Apple開發帳號才能使用
 
 # 使用方式：
