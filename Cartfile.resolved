@@ -1,4 +1,4 @@
-git "https://github.com/zhuhaow/NEKit" "dde017d8440b8fcb7eae4e061385f83fb3e1d916"
+git "https://github.com/zhuhaow/NEKit" "d4cd5493aa9f7a0b27d8968145055cbce07fffa6"
 github "CocoaLumberjack/CocoaLumberjack" "3.2.0"
 github "behrang/YamlSwift" "3.4.0"
 github "lexrus/MMDB-Swift" "0.2.2"
